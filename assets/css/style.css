@@ -1,0 +1,12 @@
+@import "./header.css";
+/* O @import importa outros arquivos */
+/* Dessa forma podemos organizar e linkar no index somente um arquivo */
+/*  O * seferencia todas as tags */
+/* isso serve para resetar o css do site */
+
+* { 
+  margin: 0; 
+  border: 0;
+  font-size: inherit;
+  vertical-align: baseline;
+} 

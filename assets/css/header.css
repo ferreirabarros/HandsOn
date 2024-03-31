@@ -1,0 +1,24 @@
+header{
+  /* tamanho da caixa de cabeçalhao */
+  width: 1024px;
+  margin: 0 auto;
+  /* tipo de display */
+  display: flex;
+  /* direção do display linha ou coluna */
+  flex-direction: row;
+  /* modo de separação */
+  justify-content: space-between;
+  /* modo de alinhamento entre os itens */
+  align-items: center;
+
+}
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  /* nome retira todos os stylos presentas nas lista */
+  list-style: none;
+}
+
+header nav ul li{
+  padding: 0 15px;
+}
