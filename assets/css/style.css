@@ -1,12 +1,23 @@
-@import "./header.css";
+/* fontes do google */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200..900&display=swap');
 /* O @import importa outros arquivos */
 /* Dessa forma podemos organizar e linkar no index somente um arquivo */
+@import "./header.css";
+@import "./buttons.css";
 /*  O * seferencia todas as tags */
 /* isso serve para resetar o css do site */
-
 * { 
   margin: 0; 
   border: 0;
   font-size: inherit;
   vertical-align: baseline;
+  /* none retira todos as decoração presentas nos textos */
+  text-decoration: none;
+  }
+  /* fontes do google */
+  .source-sans {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style:normal;
 } 
