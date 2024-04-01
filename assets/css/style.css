@@ -4,12 +4,14 @@
 /* Dessa forma podemos organizar e linkar no index somente um arquivo */
 @import "./header.css";
 @import "./buttons.css";
+@import "./main.css";
+
 /*  O * seferencia todas as tags */
 /* isso serve para resetar o css do site */
 * { 
   margin: 0; 
   border: 0;
-  font-size: inherit;
+  font-weight: 300;
   vertical-align: baseline;
   /* none retira todos as decoração presentas nos textos */
   text-decoration: none;
@@ -17,8 +19,8 @@
   /* fontes do google */
   .source-sans {
     font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:bold;
+    font-optical-sizing:auto;
+    font-weight:300;
     font-style:normal;
   }
   
