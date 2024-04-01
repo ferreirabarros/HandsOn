@@ -5,6 +5,7 @@
 @import "./header.css";
 @import "./buttons.css";
 @import "./main.css";
+@import "./footer.css";
 
 /*  O * seferencia todas as tags */
 /* isso serve para resetar o css do site */
@@ -15,6 +16,8 @@
   vertical-align: baseline;
   /* none retira todos as decoração presentas nos textos */
   text-decoration: none;
+    /* none retira todos os stylos presentas nas lista */
+  list-style: none;
   }
   /* fontes do google */
   .source-sans {
@@ -24,6 +27,11 @@
     font-style:normal;
   }
   
+  body{
+    background-image: url(../images/bolha-background.png);
+    background-repeat:no-repeat;
+    background-position: left center;
+  }
   .container{
       /* tamanho e margem da caixa agindo no header e main*/
   width: 1024px;
