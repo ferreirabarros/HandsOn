@@ -5,6 +5,11 @@ header section{
   align-items: center;
 
 }
+
+header nav ul{
+  padding: 0 !important;
+}
+
 header nav ul{
   display: flex;
   align-items: center;

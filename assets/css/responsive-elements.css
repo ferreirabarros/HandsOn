@@ -51,6 +51,7 @@
     width: 290px;
   }
 
+
   header nav{
     background: #fff;
     width: 100%;
@@ -65,4 +66,8 @@
   header nav ul li{
     margin: 10px;
   }
-} 
+
+  article{
+    text-align: center;
+  }
+}
