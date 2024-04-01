@@ -1,11 +1,4 @@
-header{
-  /* tamanho da caixa de cabeçalhao */
-  width: 1024px;
-  margin: 30px auto;
-  /* tipo de display */
-  display: flex;
-  /* direção do display linha ou coluna */
-  flex-direction: row;
+header section{
   /* modo de separação */
   justify-content: space-between;
   /* modo de alinhamento entre os itens */

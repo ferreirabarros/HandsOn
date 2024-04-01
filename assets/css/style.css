@@ -20,4 +20,19 @@
     font-optical-sizing: auto;
     font-weight:bold;
     font-style:normal;
-} 
+  }
+  
+  .container{
+      /* tamanho e margem da caixa agindo no header e main*/
+  width: 1024px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  }
+
+  .row{
+    /* tipo de display */
+    display: flex;
+    /* direção do display linha ou coluna */
+    flex-direction: row;
+  }
