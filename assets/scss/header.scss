@@ -1,0 +1,22 @@
+header{
+  section{
+    /* modo de separação */
+    justify-content: space-between;
+    /* modo de alinhamento entre os itens */
+    align-items: center;
+  }
+  nav{
+    ul{
+      padding: 0 !important;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+    li{
+      a{
+        margin:  0 15px;
+        color:$color-primaria;
+      }
+    }
+  }
+}
