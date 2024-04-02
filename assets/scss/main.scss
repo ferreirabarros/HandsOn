@@ -7,19 +7,19 @@
   width: 250px;
 }
 .sobre-web-design article h1{
-  font-size: 70px;
+  font-size: $font-size-h1;
   line-height: 90%;
   font-weight: 400;
-  color:#333366;
+  color:$color-secundaria;
 }
 
 /* refatorando cor de sobre-web-design article h2 e p */
 .sobre-web-design article h2,.sobre-web-design article p{
-  color:#3399cc;
+  color:$color-primaria;
 }
 
 .sobre-web-design article h2{
-  font-size: 30px;
+  font-size: $font-size-h2;
   line-height: 200%;
   text-transform: uppercase;
   letter-spacing: 3px;
