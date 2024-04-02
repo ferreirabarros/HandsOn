@@ -1,35 +1,40 @@
 .sobre-web-design{
   align-items: center;
   justify-content: space-between;
+  article{
+    width: 250px;
+    h1{
+      font-size: $font-size-h1;
+      line-height: 90%;
+      font-weight: 400;
+      color:$color-secundaria;
+    }
+    /* refatorando cor de sobre-web-design article h2 e p */
+    h2, p{
+      color:$color-primaria;
+    }
+    h2{
+      font-size: $font-size-h2;
+      line-height: 200%;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    p{
+      margin: 10px 0 40px;
+    }
+  }
+  figcaption{
+    img{
+      width: 700px;
+    }
+  }
 }
 
-.sobre-web-design article{
-  width: 250px;
-}
-.sobre-web-design article h1{
-  font-size: $font-size-h1;
-  line-height: 90%;
-  font-weight: 400;
-  color:$color-secundaria;
-}
 
-/* refatorando cor de sobre-web-design article h2 e p */
-.sobre-web-design article h2,.sobre-web-design article p{
-  color:$color-primaria;
-}
 
-.sobre-web-design article h2{
-  font-size: $font-size-h2;
-  line-height: 200%;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-.sobre-web-design article p{
-  margin: 10px 0 40px;
-}
 
-.sobre-web-design figcaption img{
-  width: 700px;
-}
+
+
+
 
 

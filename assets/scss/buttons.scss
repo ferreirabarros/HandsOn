@@ -1,8 +1,9 @@
 .btn{
   padding: 5px 30px;
   border-radius: $btn-radius;
-}
-.btn.btn-laranja{
-  background: $color-tercearia;
-  color: $color-branco;
+
+  &.btn-laranja{
+    background: $color-tercearia;
+    color: $color-branco;
+  }
 }
