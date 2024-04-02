@@ -1,6 +1,13 @@
-@media (max-width: 1150px){
+@media (max-width: 1300px){
   .container{
     width: 900px;
+  }
+  .sobre-web-design{
+    figcaption{
+      img{
+        width: 650px;
+      }
+    }
   }
 }
 @media (max-width: 1024px){
